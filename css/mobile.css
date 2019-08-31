@@ -1,0 +1,242 @@
+.container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+/* Styling the navbar for mobile devices */
+
+
+nav {
+    width: 100%;
+    height: 130px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(28, 44, 39);
+}
+
+nav .container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    color: rgb(28, 44, 39);
+}
+
+nav .btn {
+    position: absolute !important;
+    top: 17px !important;
+    right: 20px !important;
+
+}
+
+nav .btn:hover {
+    background: rgb(0, 200, 100);
+    color: white !important;
+}
+
+nav .nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-links {
+    transition: all .5s ease-in-out;
+}
+
+nav .nav-links a:hover {
+    color: rgb(0, 200, 100);
+}
+
+/* styling my travel map section  */
+#my-travel-map {
+    width: 100%;
+    height: 50vh;
+}
+
+#my-travel-map .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#my-travel-map .tm-info {
+    width: 100%;
+
+}
+
+#my-travel-map .tm-info .btn {
+    display: block;
+    width: 120px;
+    margin: 15px auto;
+    background: rgb(0, 200, 100);
+    color: white;
+}
+
+#my-travel-map .tm-info .btn:hover {
+    color: rgb(28, 44, 39);
+    background: transparent;
+}
+
+
+#my-travel-map .tm-img {
+    width: 100%;
+    position: absolute;
+    top: 10%
+}
+
+#my-travel-map .tm-img img {
+    width: 100%;
+    opacity: .2;
+    z-index: -1;
+}
+
+/* styling discover world section */
+
+#discover-world {
+    width: 100%;
+    height: 50vh;
+
+}
+
+#discover-world .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+#discover-world .dw-info {
+    width: 100%;
+    position: absolute;
+}
+
+
+#discover-world .dw-img {
+    width: 100%;
+    position: absolute;
+    top: 10%
+}
+
+#discover-world .dw-img img {
+    width: 100%;
+    opacity: .25;
+    z-index: -1;
+}
+
+/*  styling ready section */
+
+#ready {
+    width: 100%;
+    height: 60vh;
+}
+
+#ready .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#ready .ready-info {
+    width: 100%;
+    position: absolute;
+}
+
+
+#ready .ready-img {
+    width: 100%;
+    position: absolute;
+    top: 10%
+}
+
+#ready .ready-img img {
+    width: 100%;
+    opacity: .25;
+    z-index: -1;
+}
+
+/*  styling features section */
+
+#features {
+    width: 100%;
+}
+
+#features .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#features .container .card {
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+    padding: 20px;
+
+}
+
+.card ul li {
+    padding-left: 20px;
+}
+
+.card ul li:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: rgb(0, 200, 100);
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 0px;
+}
+
+.card img {
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transition: all 1.2s ease-in-out;
+}
+
+.card .l-heading {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    background: rgb(28, 44, 39);
+    transform: translateY(-5%)
+}
+
+.card:hover .l-heading,
+.card:hover li {
+    color: white
+}
+
+.card:hover img {
+    transform: translateY(40%);
+}
+
+/* footer styling */
+
+footer .container {
+    display: flex;
+    flex-direction: column
+}
+
+footer .container .right {
+    order: 4
+}

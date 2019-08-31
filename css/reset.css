@@ -1,0 +1,137 @@
+/* Colors
+        background: rgba(255, 127, 80, 0.103);
+        color: rgb(28, 44, 39);
+        color: rgb(0, 200, 100)
+        coral
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Titillium+Web&display=swap");
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: "Titillium Web", sans-serif;
+    box-sizing: border-box;
+    color: rgb(28, 44, 39);
+}
+
+body {
+    background: #fbfbfb;
+}
+
+section {
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 44, 39);
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: rgb(20, 20, 20);
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.coral {
+    color: coral;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid rgb(0, 200, 100);
+    border-radius: 30px;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    background: rgb(0, 200, 100);
+    color: white;
+}
+
+.l-heading {
+    color: rgb(28, 44, 39);
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    transition: all .7s ease-in-out;
+}
+
+.card {
+    border: 2px solid rgba(28, 44, 39, 0.219);
+    border-radius: 30px;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+}
+
+
+.card .l-heading {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li {
+    line-height: 2rem;
+    position: relative;
+    transition: all .7s ease-in-out;
+}
+
+.card ul li:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: rgb(0, 200, 100);
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 40px;
+}
+
+.card img {
+    width: 60%;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transition: all 1.2s ease-in-out;
+}
+
+
+footer {
+    background: rgb(20, 20, 20);
+    padding: 20px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.404)
+}
+
+footer h2,
+footer a {
+    color: white
+}
+
+
+
+
+
+.trans-bg {
+    width: 70%;
+    height: 150vh;
+    background: rgba(255, 127, 80, 0.199);
+    position: absolute;
+    z-index: -2;
+    top: 130vh;
+    border-bottom-right-radius: 50px;
+}
